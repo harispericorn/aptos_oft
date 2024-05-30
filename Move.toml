@@ -1,0 +1,12 @@
+[package]
+name = "example_proxy_oft"
+version = "1.0.0"
+authors = ["neethu.satheesh", "hari.krishna"]
+upgrade_policy = "compatible"
+
+[dev-addresses]
+
+[dependencies]
+layerzero_apps = { local = "../LayerZero-Aptos-Contract/layerzero-apps" }
+
+[dev-dependencies]
